@@ -1,2 +1,1 @@
-# Astrofotografija-lengvai
-About astrophotography with conventional digital cameras and simple lenses, without large telescopes, sophisticated tracking systems and expensive CCD cameras with refrigerated sensors.
+Žvaigždės yra labai silpnas šviesos šaltinis, reikalaujantis ekspozicijos bent keliolika sekundžių, po kurių nuotraukoje dėl Žemės sukimosi išryškėja „brūkšneliai“. 
