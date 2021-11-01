@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
+   
     <head>
+        
         <title>6. Žvaigždžių takais</title>
 
           <meta charset="utf-8">
           <meta name="keywords" content="astrofotografija, vyga.foto, polius, Šiaurinė, žvaigždė, montuotė, pusiaujinė, takai, fotografija">
           <meta name="description" content="Žvaigždžių takais">
 
-              <link rel="stylesheet" href="style.css"> 
+             <link id="Diena" rel="stylesheet" href='style_light.css'/>
+
+               <script>
+                   function toggleTheme(value) {
+                   var sheets = document.getElementsByTagName('link'); sheets[0].href = value;
+                   }
+               </script>
+
+               <style>
+                   div.fixed {
+                   position: fixed; 
+                   }
+               </style>
+
+               <div class="fixed">
+                   <button onclick="toggleTheme('style_dark.css')">Naktis</button>
+                   <button onclick="toggleTheme('style_light.css')">Diena</button>
+               </div>
+        
     </head>
 
 <body>
@@ -70,20 +90,7 @@
                 <center>Telecentras <a href="https://www.efoto.lt/node/1080541" target="onmousedown">(vyga.foto</a/> nuotr.)</center>
        
     
-
-            
-            
         </article>        
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
