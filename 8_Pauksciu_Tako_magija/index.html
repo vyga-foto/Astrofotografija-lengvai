@@ -7,11 +7,24 @@
           <meta name="keywords" content="astrofotografija, vyga.foto, polius, Šiaurinė, žvaigždė, montuotė, pusiaujinė, fotografija">
           <meta name="description" content="O vis dėl to ji sukasi. Pusiaujnės dangaus sekimo montuotės astrofotografijai. Šiaurinės žvaigždė. Grįžulo Ratai">
 
-              <style>
-                   
-              </style>
+              <link id="Naktis" rel="stylesheet" href='style_dark.css'/>
 
-              <link rel="stylesheet" href="style.css"> 
+               <script>
+                   function toggleTheme(value) {
+                   var sheets = document.getElementsByTagName('link'); sheets[0].href = value;
+                   }
+               </script>
+
+               <style>
+                   div.fixed {
+                   position: fixed; right: 0;  
+                   }
+               </style>
+
+               <div class="fixed">
+                   <button onclick="toggleTheme('style_light.css')">Diena</button>
+                   <button onclick="toggleTheme('style_dark.css')">Naktis</button>
+               </div>
     </head>
 
 <body>
