@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="lt">
     <head>
         <title>Astrofotografija lengvai</title>
 
@@ -7,33 +7,83 @@
           <meta name="keywords" content="astrofotografija, vyga.foto, fotografija, dangus">
           <meta name="description" content="Astrofotografija lengvai"> 
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-              <style>
-                  body {font-size: 18px; font-family: "Times New Roman"; arial, verdana; background-color: lightgray;} 
-                  article {width: 1000px; margin: auto;}
-              </style>
               
-              <link rel="stylesheet" href="style.css"> 
+ <style>
+               a:link {
+  color: #92a6df;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #be6dc9;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #c9ca68;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: descrp; }
+.item3 { grid-area: left; }
+.item4 { grid-area: menu; }
+.item5 { grid-area: main; }
+.item6 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header  header header header header header header'
+    'left left left left left descrp descrp descrp descrp descrp descrp descrp'
+    'left left left left left menu menu menu menu menu main main'
+    'footer footer footer footer footer footer footer footer footer footer footer footer';
+    background-color: rgb(50, 50, 50)
+}
+
+.grid-container > div {
+  background-color: rgb(50, 50, 50); 
+  font-size:92%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+        
+</style>
     </head>
+    
+ <body>
+    <div class="grid-container">
+  <div class="item1"><h1 style="color:rgb(200, 200, 200); text-align:center">Astrofotografija lengvai</h1></div>
+  
+  <div class="item2"><b style="color:rgb(200, 200, 200); font-size:112%"><marquee behavior="scroll" direction="left" scrollamount="12" width="95%" direction="left" height="40px">Apie astrofotografiją su įprastais skaitmeniniais fotoaparatais. Be didelių teleskopų, sudėtingų sekimo sistemų ir brangių CCD kamerų šaldomais jutikliais. 
+    </marquee></b></div>
 
-     <body>
-     <article>
- <h1><center>Astrofotografija lengvai</center></h1><br>
- <p><a href="1_O_vis_dėlto_ji_sukasi/index.html" target="blank"><h3>1. O vis dėlto ji sukasi</h3></a></p>
-  <p><a href="2_Lietuvos_astroklimatas/index.html" target="blank"><h3>2. Lietuvos astroklimatas</h3></a></p>
-      <p><a href="3_Teorija_ir_technika/index.html" target="blank"><h3>3. Teorija ir technika</h3></a></p>
-          <p><a href="4_xxxxx" target="blank"><h3>4. Naktinių išvykų planavimas (puslapis ruošiamas)</h3></a></p>
-              <p><a href="5_xxxxx" target="blank"><h3>5. Lauko praktika (puslapis ruošiamas)</h3></a></p>
-                  <p><a href="6_Zvaigzdziu_takais/index.html" target="blank"><h3>6. Žvaigdžių takais</h3></a></p>
-                      <p><a href="7_xxxxxxx" target="blank"><h3>7. Astrofotografijų apdorojimas (puslapis ruošiamas)</h3></a></p>
-                          <p><a href="8_Pauksciu_Tako_magija/index.html" target="blank"><h3>8. Paukščių Tako magija</h3></a></p>
-                              <p><a href="9_xxxxxxxxx" target="blank"><h3>9. Meteorų fotografija (puslapis ruošiamas)</h3></a></p>
-                                  <p><a href="10_xxxxxxxxxx" target="blank"><h3>10. Aurora polaris (puslapis ruošiamas)</h3></a></p>
-                                      <p><a href="11_xxxxxxxxxxx" target="blank"><h3>11. Giliojo kosmoso objektai (puslapis ruošiamas)</h3></a/></p>
+  <div class="item3"></p></div>
+  
+  <div class="item4"><a href="1_O_vis_dėlto_ji_sukasi/index.html" target="blank"><h3>1. O vis dėlto ji sukasi</h3></a>
+    <a href="2_Lietuvos_astroklimatas/index.html" target="blank"><h3>2. Lietuvos astroklimatas</h3></a>
+    <a href="3_Teorija_ir_technika/index.html" target="blank"><h3>3. Teorija ir technika</h3></a>
+    <a href="4_xxxxx" target="blank"><h3>4. Naktinių išvykų planavimas</h3></a>
+    <a href="5_xxxxx" target="blank"><h3>5. Lauko praktika</h3></a>
+    <a href="6_Zvaigzdziu_takais/index.html" target="blank"><h3>6. Žvaigdžių takais</h3></a>
+    <a href="7_xxxxxxx" target="blank"><h3>7. Astrofotografijų apdorojimas</h3></a>
+    <a href="8_Pauksciu_Tako_magija/index.html" target="blank"><h3>8. Paukščių Tako magija</h3></a>
+    <a href="9_xxxxxxxxx" target="blank"><h3>9. Meteorų fotografija</h3></a>
+    <a href="10_xxxxxxxxxx" target="blank"><h3>10. Aurora polaris</h3></a>
+    <a href="11_xxxxxxxxxxx" target="blank"><h3>11. Giliojo kosmoso objektai</h3></a></div> 
 
-
-
-
-    </article>
-    </body> 
+  <div class="item5; center">
+    <img src="StarMap.jpg" alt="StarMap" style="width:630px;height:420px";>
+  </div>
+  
+  <div class="item6"><h4 style="color:rgb(200, 200, 200); text-align:center">Copyright © vyga.foto</h4></div>
+</div>
+    
+ </body> 
 
 </html>
