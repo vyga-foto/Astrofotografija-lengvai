@@ -25,10 +25,10 @@ a:link {
    .grid-container {
      display: grid;
      grid-template-areas:
-       'header header header header'
-       'descrp descrp descrp descrp'
-       'left menu main main'
-       'left footer footer footer';
+      'header header header header header'
+       'descrp descrp descrp descrp descrp'
+       'left menu main main main'
+       'footer footer footer footer footer';
        background-color: rgb(50, 50, 50)
    }
    
