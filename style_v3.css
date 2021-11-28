@@ -1,0 +1,40 @@
+
+a:link {
+     color: #92a6df;
+     background-color: transparent;
+     text-decoration: none;
+   }
+   a:visited {
+     color: #be6dc9;
+     background-color: transparent;
+     text-decoration: none;
+   }
+   a:hover {
+     color: #c9ca68;
+     background-color: transparent;
+     text-decoration: underline;
+   }
+   
+   .item1 { grid-area: header; }
+   .item2 { grid-area: descrp; }
+   .item3 { grid-area: left; }
+   .item4 { grid-area: menu; }
+   .item5 { grid-area: main; }
+   .item6 { grid-area: footer; }
+   
+   .grid-container {
+     display: grid;
+     grid-template-areas:
+       'header header header header'
+       'descrp descrp descrp descrp'
+       'left menu main main'
+       'left footer footer footer';
+       background-color: rgb(50, 50, 50)
+   }
+   
+   .grid-container > div {
+     background-color: rgb(50, 50, 50); 
+     font-size:1.3vw;
+   }
+
+   
