@@ -30,11 +30,11 @@ a:link {
        'descrp descrp descrp descrp descrp'
        'left menu main main main'
        'footer footer footer footer footer';
-       background-color: rgb(50, 50, 50)
+       background-color: rgb(255, 255, 255)
    }
    
    .grid-container > div {
-     background-color: rgb(50, 50, 50); 
+     background-color: rgb(255, 255, 255); 
      font-size:1.3vw;
    }
 
