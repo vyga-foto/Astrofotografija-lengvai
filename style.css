@@ -1,0 +1,50 @@
+
+
+
+a:link {
+  color: #92a6df;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #be6dc9;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #c9ca68;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.main {
+  float: left;
+  width: 50%;
+  padding: 16px;
+}
+
+.right {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  margin-top: 0%;
+  
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
